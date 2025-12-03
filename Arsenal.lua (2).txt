@@ -1623,20 +1623,20 @@ end)
 local Credit = Window:NewTab("Credits")
 local Section = Credit:NewSection("Credits")
 local Section = Credit:NewSection("Script Developed by: AdvanceFalling Team")
-Section:NewDropdown("Developer", "Dev", {"YellowGreg", "WspBoy12", "MMSVon", "ShadowClark", "Frostbite"}, function(currentDeveloper)
+Section:NewDropdown("Developer", "Dev", {"sin5kk", "blue ball", "aabbaii", "wild", "1#"}, function(currentDeveloper)
     local creations = {
-        YellowGreg = "Owner",
-        WspBoy12 = "Head Developer",
-        MMSVon = "Head Developer",
-        ShadowClark = "Head Developer",
-        Frostbite = "Head Developer",
+        sin5kk = "co founder",
+        blue ball = "W Developer",
+        aabbaii = "W Developer",
+        wild = "W Developer",
+        #1 supporter = "W Developer",
     }
     print(currentDeveloper .. " created " .. creations[currentDeveloper])
 end)
 local Section = Credit:NewSection("UI Framework: Kavo.")
 local Section = Credit:NewSection("Report Non-Functional Bugs Scripts on Discord")
 Section:NewButton("Copy Discord Link", "Discord", function()
-    setclipboard("https://discord.com/invite/d2446gBjfq")
+    setclipboard(https://discord.gg/PD6tGFkZ")
 end)
 
 
